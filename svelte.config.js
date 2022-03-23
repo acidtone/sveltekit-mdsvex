@@ -1,4 +1,4 @@
-import adapter from '@sveltejs/adapter-static';
+import adapter from '@sveltejs/adapter-netlify'
 import sveltePreprocess from 'svelte-preprocess'
 import { mdsvex } from 'mdsvex'
 import rehypeSlug from 'rehype-slug'
@@ -10,7 +10,8 @@ import container from "remark-container"
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter()
+		adapter: adapter(),
+    target: '#svelte'
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
