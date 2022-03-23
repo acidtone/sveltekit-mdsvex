@@ -10,8 +10,7 @@ import container from "remark-container"
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
 	kit: {
-		adapter: adapter(),
-    target: '#svelte'
+		adapter: adapter()
 	},
 	extensions: ['.svelte', '.md'],
 	preprocess: [
