@@ -18,7 +18,7 @@ HMR
 
 ## Containers (`remark-container`)
 
-::: aside some-class
+::: aside red
 ### Some wrapped content
 More content
 :::
@@ -31,6 +31,8 @@ More content
 {style="color:red;"}
 
 Npm stand for *node*{style="color:red"} packet manager.
+
+Shorthand for **class**{.red} attributes.
 
 ---
 

@@ -22,6 +22,7 @@
   "dependencies": {
     "rehype-autolink-headings": "^6.1.1",
     "rehype-slug": "^5.0.1",
-    "remark-attr": "^0.11.1"
+    "remark-attr": "^0.11.1",
+    "remark-containers": "^1.2.0"
   }
 }
