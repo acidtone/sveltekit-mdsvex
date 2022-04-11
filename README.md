@@ -1,5 +1,7 @@
 # Skeleton Markdown Blog
-A first try at [setting up SvelteKit with MDSveX](https://github.com/acidtone/code-journal#march-22-2022).
+## Journal Entries:
+- A first try at [setting up SvelteKit with MDSveX](https://github.com/acidtone/code-journal#march-22-2022).
+- [Testing `remark-attr`](https://github.com/acidtone/code-journal#remark-attr-with-mdsvex-and-sveltekit) for custom attributes in markdown.
 
 ## Attributions
 - [Let's learn SvelteKit by building a static Markdown blog from scratch](https://joshcollinsworth.com/blog/build-static-sveltekit-markdown-blog)

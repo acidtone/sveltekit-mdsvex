@@ -25,6 +25,15 @@ More content
 
 ---
 
+## Custom attributes (`remark-attr`)
+
+### This is a title
+{style="color:red;"}
+
+Npm stand for *node*{style="color:red"} packet manager.
+
+---
+
 ## Codepen Embed (iFrame)
 
 <iframe height="300" style="width: 100%;" scrolling="no" title="CSS Toggle with Element.classList" src="https://codepen.io/browsertherapy/embed/jOWdRze?default-tab=html%2Cresult" frameborder="no" loading="lazy" allowtransparency="true" allowfullscreen="true">
