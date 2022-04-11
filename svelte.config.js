@@ -6,6 +6,7 @@ import rehypeAutolinkHeadings from 'rehype-autolink-headings'
 import autoprefixer from 'autoprefixer'
 import defList from "remark-deflist"
 import container from "remark-container"
+import attr from "remark-attr"
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {
@@ -27,6 +28,7 @@ const config = {
       remarkPlugins: [
         defList,
         container,
+        attr
       ],
       rehypePlugins: [
         rehypeSlug,
