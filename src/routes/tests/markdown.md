@@ -16,7 +16,7 @@ HMR
 
 ---
 
-## Containers (`remark-container`)
+## Containers (`remark-containers`)
 
 ::: aside red
 ### Some wrapped content
